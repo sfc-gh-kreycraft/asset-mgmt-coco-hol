@@ -1,0 +1,14 @@
+{
+  "title": "Asset Management Cortex Code Lab",
+  "scenario": "Build a governed, repeatable pipeline over synthetic multi-asset portfolio data: investors, fund transactions and asset locations across alternative asset classes.",
+  "outcome": "Participants leave able to build and validate a governed, incremental data pipeline over synthetic asset-portfolio data using Cortex Code in Snowsight, with a clear next step.",
+  "track_label": "Data Engineering",
+  "interface_label": "in Snowsight",
+  "database": "HOL_COCO_20261030",
+  "schema": "P001",
+  "role": "HOL_COCO_PARTICIPANT",
+  "warehouse": "HOL_COCO_WH",
+  "zip": "asset-mgmt-coco-hol-data.zip",
+  "expected_text": "LOCATIONS 5 rows, CUSTOMERS 100 rows, TRANSACTIONS 1200 rows; NET_SPEND 339300.29.",
+  "interface_notes": "- Open a Workspace, then Cortex Code in the lower-right corner. Use Plan mode before multi-step work.\n- Personal skills live in `.snowflake/cortex/skills/<name>/SKILL.md` in that workspace (+ Create Skill, then paste the starter from the lab step page).\n- Plugins, local hooks and custom subagent files are shown by the facilitator from Desktop/CLI."
+}
